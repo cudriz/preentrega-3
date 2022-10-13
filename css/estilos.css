@@ -9,18 +9,20 @@
   --md: 16px;
   --lg: 18px;
 }
-*  {
+
+* {
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
+
 .inactive {
   display: none;
 }
-
 
 /* Navbar (general) */
 nav {
@@ -29,12 +31,15 @@ nav {
   padding: 0 24px;
   border-bottom: 1px solid var(--very-light-pink);
 }
+
 .menu {
   display: none;
 }
+
 .logo {
   width: 100px;
 }
+
 .navbar-left ul,
 .navbar-right ul {
   list-style: none;
@@ -44,12 +49,15 @@ nav {
   align-items: center;
   height: 60px;
 }
+
 .navbar-left {
   display: flex;
 }
+
 .navbar-left ul {
   margin-left: 12px;
 }
+
 .navbar-left ul li a,
 .navbar-right ul li a {
   text-decoration: none;
@@ -58,20 +66,24 @@ nav {
   padding: 8px;
   border-radius: 8px;
 }
+
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover {
   border: 1px solid var(--hospital-green);
   color: var(--hospital-green);
 }
+
 .navbar-email {
   color: var(--very-light-pink);
   cursor: pointer;
   font-size: var(--sm);
   margin-right: 12px;
 }
+
 .navbar-shopping-cart {
   position: relative;
 }
+
 .navbar-shopping-cart div {
   width: 16px;
   height: 16px;
@@ -99,26 +111,32 @@ nav {
   border-radius: 6px;
   padding: 20px 20px 0 20px;
 }
+
 .desktop-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
 .desktop-menu ul li {
   text-align: end;
 }
+
 .desktop-menu ul li:nth-child(1),
 .desktop-menu ul li:nth-child(2) {
   font-weight: bold;
 }
+
 .desktop-menu ul li:last-child {
   padding-top: 20px;
   border-top: 1px solid var(--very-light-pink);
 }
+
 .desktop-menu ul li:last-child a {
   color: var(--hospital-green);
   font-size: var(--sm);
 }
+
 .desktop-menu ul li a {
   color: var(--back);
   text-decoration: none;
@@ -135,32 +153,37 @@ nav {
   width: 100%;
   padding: 24px;
 }
+
 .mobile-menu a {
   text-decoration: none;
   color: var(--black);
   font-weight: bold;
   /* margin-bottom: 24px; */
 }
+
 .mobile-menu ul {
   padding: 0;
   margin: 24px 0 0;
   list-style: none;
 }
+
 .mobile-menu ul:nth-child(1) {
   border-bottom: 1px solid var(--very-light-pink);
 }
+
 .mobile-menu ul li {
   margin-bottom: 24px;
 }
+
 .email {
   font-size: var(--sm);
   font-weight: 300 !important;
 }
+
 .sign-out {
   font-size: var(--sm);
   color: var(--hospital-green) !important;
 }
-
 
 /* Aside (product detail y carrito) */
 aside {
@@ -175,17 +198,21 @@ aside {
 #shoppingCartContainer {
   padding: 0 24px;
 }
+
 .title-container {
   display: flex;
 }
+
 .title-container img {
   transform: rotate(180deg);
   margin-right: 14px;
 }
+
 .title {
   font-size: var(--lg);
   font-weight: bold;
 }
+
 .order {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -196,18 +223,22 @@ aside {
   border-radius: 8px;
   padding: 0 24px;
 }
+
 .order p:nth-child(1) {
   display: flex;
   flex-direction: column;
 }
+
 .order p span:nth-child(1) {
   font-size: var(--md);
   font-weight: bold;
 }
+
 .order p:nth-child(2) {
   text-align: end;
   font-weight: bold;
 }
+
 .shopping-cart {
   display: grid;
   grid-template-columns: auto 1fr auto auto;
@@ -215,22 +246,28 @@ aside {
   margin-bottom: 24px;
   align-items: center;
 }
+
 .shopping-cart figure {
   margin: 0;
 }
+
 .shopping-cart figure img {
   width: 70px;
   height: 70px;
   border-radius: 20px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 .shopping-cart p:nth-child(2) {
   color: var(--very-light-pink);
 }
+
 .shopping-cart p:nth-child(3) {
   font-size: var(--md);
   font-weight: bold;
 }
+
 .primary-button {
   background-color: var(--hospital-green);
   border-radius: 8px;
@@ -255,36 +292,44 @@ aside {
   padding: 12px;
   border-radius: 50%;
 }
+
 .product-detail-close:hover {
   cursor: pointer;
 }
+
 #productDetail > img:nth-child(2) {
   width: 100%;
   height: 360px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 0 0 20px 20px;
 }
+
 #productDetail .product-info {
   margin: 24px 24px 0 24px;
 }
+
 #productDetail .product-info p:nth-child(1) {
   font-weight: bold;
   font-size: var(--md);
   margin-top: 0;
   margin-bottom: 4px;
 }
+
 #productDetail .product-info p:nth-child(2) {
   color: var(--very-light-pink);
   font-size: var(--md);
   margin-top: 0;
   margin-bottom: 36px;
 }
+
 #productDetail .product-info p:nth-child(3) {
   color: var(--very-light-pink);
   font-size: var(--sm);
   margin-top: 0;
   margin-bottom: 36px;
 }
+
 .primary-button {
   background-color: var(--hospital-green);
   border-radius: 8px;
@@ -296,12 +341,12 @@ aside {
   font-weight: bold;
   height: 50px;
 }
+
 .add-to-cart-button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 /* Product List */
 .cards-container {
@@ -311,34 +356,42 @@ aside {
   place-content: center;
   margin-top: 20px;
 }
+
 .product-card {
   width: 240px;
 }
+
 .product-card img {
   width: 240px;
   height: 240px;
   border-radius: 20px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 .product-card .product-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 12px;
 }
+
 .product-card .product-info figure {
   margin: 0;
 }
+
 .product-card .product-info figure img {
   width: 35px;
   height: 35px;
 }
+
 .product-card .product-info div p:nth-child(1) {
   font-weight: bold;
   font-size: var(--md);
   margin-top: 0;
   margin-bottom: 4px;
 }
+
 .product-card .product-info div p:nth-child(2) {
   font-size: var(--sm);
   margin-top: 0;
@@ -418,7 +471,6 @@ aside {
   font-size: 15px;
 }
 
-
 @media (max-width: 640px) {
   .menu {
     display: block;
@@ -432,11 +484,9 @@ aside {
   .desktop-menu {
     display: none;
   }
-
   aside {
     width: 100%;
   }
-
   .cards-container {
     grid-template-columns: repeat(auto-fill, 140px);
   }
@@ -448,17 +498,16 @@ aside {
     height: 140px;
   }
 }
-
 @media (min-width: 641px) {
   .mobile-menu {
     display: none;
   }
-  @media screen and (max-width:800px) {
-    .pie-pagina .grupo-1 {
-      width: 90%;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap: 30px;
-      padding: 35px 0px;
-    }
-  }
 }
+@media screen and (min-width: 641px) and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

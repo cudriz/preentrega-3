@@ -1,0 +1,22 @@
+.mobile-menu {
+              background-color: var(--white);
+              position: absolute;
+              top: 60px;
+              left: 0;
+              width: 100%;
+              padding: 24px;
+                          ul {
+                              padding: 0;
+                              margin: 24px 0 0;
+                             list-style: none;
+              }
+                                    li {
+                                         margin-bottom: 24px;
+              }
+                                                   a {
+                                                      text-decoration: none;
+                                                      color: var(--black);
+                                                      font-weight: bold;
+                
+              }
+  }
