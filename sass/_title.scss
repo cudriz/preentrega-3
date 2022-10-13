@@ -1,0 +1,14 @@
+@import "variables";
+@import "generales";
+
+.title-container {
+  display: flex;
+  img {
+    transform: rotate(180deg);
+    margin-right: 14px;
+  }
+  title {
+    font-size: $lg;
+    font-weight: bold;
+  }
+}
