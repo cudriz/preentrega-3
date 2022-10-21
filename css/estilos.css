@@ -393,8 +393,8 @@ aside {
 .contact {
   text-align: center;
   color: #001A49;
-  font-size: 2rem;
-  margin-bottom: 25px;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 /* seccion nosotros */
@@ -646,6 +646,12 @@ aside {
   margin-bottom: 30px;
 }
 
+.descuentos {
+  display: block;
+  margin: auto;
+  padding: 50px;
+}
+
 /* bts */
 .slide img {
   height: 90vh;
@@ -653,6 +659,51 @@ aside {
 
 #carouselExampleIndicators {
   z-index: -1;
+}
+
+/* track */
+.track__texts {
+  text-align: center;
+}
+
+.titleind {
+  color: #001A49;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  line-height: 1.5;
+  color: hsl(201deg, 11%, 66%);
+  margin-top: 1.5em;
+}
+
+.track__img {
+  width: 100%;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 3.5em;
+}
+
+.track__articles {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5em;
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+.track__offer {
+  color: #001A49;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.track__copy {
+  margin-top: 0.7em;
+  line-height: 1.5;
+  color: hsl(210deg, 10%, 33%);
 }
 
 /* Footer */

@@ -331,8 +331,8 @@ aside {
 .contact {
   text-align: center;
   color: $blue;
-  font-size: 2rem;
-  margin-bottom: 25px;
+  font-size: 3em;
+  font-weight: bold;
 }
 /* seccion nosotros */
 .container {
@@ -374,11 +374,14 @@ aside {
 }
 .subtitle {
   color: $blue;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
   margin-bottom: 25px;
 }
 .about__paragraph {
   line-height: 1.7;
+  color: $dark-grayish-blue;
+  font-size: 1.5rem;
 }
 .about__main {
   padding-top: 80px;
@@ -421,6 +424,7 @@ aside {
 .knowledge__paragraph {
   line-height: 1.7;
   margin-bottom: 15px;
+  color: $dark-grayish-blue;
 }
 .knowledge__img {
   width: 100%;
@@ -548,6 +552,12 @@ aside {
   margin: 0 auto;
   margin-bottom: 30px;
 }
+.descuentos {
+ 
+  display: block;
+  margin: auto;
+  padding: 50px;
+}
 /* bts */
 .slide img {
   height: 90vh;
@@ -555,6 +565,52 @@ aside {
 #carouselExampleIndicators {
   z-index: -1;
 }
+/* track */
+
+.track__texts {
+  text-align: center;
+}
+
+.titleind{
+  color: $blue;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  line-height: 1.5;
+  color: $grayish-blue;
+  margin-top: 1.5em;
+}
+
+.track__img {
+  width: 100%;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 3.5em;
+}
+
+.track__articles {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5em;
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+.track__offer {
+  color: $blue;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.track__copy {
+  margin-top: .7em;
+  line-height: 1.5;
+  color: $dark-grayish-blue;
+}
+
 /* Footer */
 .footer {
   background-color: #1d293f;
