@@ -394,21 +394,12 @@ aside {
 }
 
 /* seccion nosotros */
-:root {
-  --padding-container: 100px 0;
-  --color-title: #001A49;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-  padding: var(--padding-container);
+  padding: 100px 0;
 }
 
 /* Hero container */
@@ -448,7 +439,7 @@ body {
 }
 
 .subtitle {
-  color: var(--color-title);
+  color: #001A49;
   font-size: 2rem;
   margin-bottom: 25px;
 }
@@ -614,13 +605,13 @@ body {
   font-size: 20px;
   padding: 30px 0 30px;
   cursor: pointer;
-  color: var(--color-title);
+  color: #001A49;
   justify-content: space-between;
 }
 
 .questions__arrow {
   border-radius: 50%;
-  background-color: var(--color-title);
+  background-color: #001A49;
   width: 25px;
   height: 25px;
   display: flex;
@@ -649,6 +640,15 @@ body {
   width: 60%;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+/* bts */
+.slide img {
+  height: 90vh;
+}
+
+#carouselExampleIndicators {
+  z-index: -1;
 }
 
 /* Footer */
