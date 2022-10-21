@@ -1,205 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script
-      src="https://kit.fontawesome.com/eb496ab1a0.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="shortcut icon" href="./iconos/favicon.png" type="image/x-icon">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="./iconos/favicon.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilos.css" />
-    <title>Yard Sale</title>
-  </head>
-  <body>
-    <!--navbar-->
-    <nav>
-      <img src="./iconos/icon_menu.svg" alt="menu" class="menu" />
+  <link rel="stylesheet" href="./css/estilos.css" />
+  <title>Yard Sale</title>
+</head>
 
-      <div class="navbar-left">
-        <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
-        <ul>
-          <li>
-            <a href="index.html">INICIO</a>
-          </li>
-          <li>
-            <a href="./pages/mujeres.html">MUJERES</a>
-          </li>
-          <li>
-            <a href="./pages/hombres.html">HOMBRES</a>
-          </li>
-          <li>
-            <a href="./pages/nosotros.html">NOSOTROS</a>
-          </li>
-          <li>
-            <a href="./pages/contacto.html">CONTACTO</a>
-          </li>
-        </ul>
-      </div>
+<body>
+  <!--navbar-->
+  <nav>
+    <img src="./iconos/icon_menu.svg" alt="menu" class="menu" />
+    <div class="navbar-left">
+      <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
+      <ul>
+        <li>
+          <a href="index.html">INICIO</a>
+        </li>
+        <li>
+          <a href="./pages/mujeres.html">MUJERES</a>
+        </li>
+        <li>
+          <a href="./pages/hombres.html">HOMBRES</a>
+        </li>
+        <li>
+          <a href="./pages/nosotros.html">NOSOTROS</a>
+        </li>
+        <li>
+          <a href="./pages/contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <ul>
+        <li class="navbar-email">cudriz@example.com</li>
+        <li class="navbar-shopping-cart">
+          <img src="./iconos/icon_shopping_cart_notification.svg" alt="shopping-cart" />
+          <div>3</div>
+        </li>
+      </ul>
+    </div>
+    <div class="desktop-menu inactive">
+      <ul>
+        <li>
+          <a href="/" class="title">Mis ordenes</a>
+        </li>
 
-      <div class="navbar-right">
-        <ul>
-          <li class="navbar-email">cudriz@example.com</li>
-          <li class="navbar-shopping-cart">
-            <img
-              src="./iconos/icon_shopping_cart_notification.svg"
-              alt="shopping-cart"
-            />
-            <div>3</div>
-          </li>
-        </ul>
-      </div>
-      <div class="desktop-menu inactive">
-        <ul>
-          <li>
-            <a href="/" class="title">Mis ordenes</a>
-          </li>
-    
-          <li>
-            <a href="/">Mi cuenta</a>
-          </li>
-    
-          <li>
-            <a href="/">cerrar sesion</a>
-          </li>
-        </ul>
-      </div>
-  
-      <div class="mobile-menu inactive">
-        <ul>
-          <li>
-            <a href="index.html">INICIO</a>
-          </li>
-          <li>
-            <a href="./pages/mujeres.html">MUJERES</a>
-          </li>
-          <li>
-            <a href="./pages/hombres.html">HOMBRES</a>
-          </li>
-          <li>
-            <a href="./pages/nosotros.html">NOSOTROS</a>
-          </li>
-          <li>
-            <a href="./pages/contacto.html">CONTACTO</a>
-          </li>
-        </ul>
-    
-        <ul>
-          <li>
-            <a href="/">Mis ordenes</a>
-          </li>
-          <li>
-            <a href="/">Mi cuenta</a>
-          </li>
-        </ul>
-    
-        <ul>
-          <li>
-            <a href="/" class="email">cudriz@example.com</a>
-          </li>
-          <li>
-            <a href="/" class="sign-out">cerrar sesion</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-   
-    <aside class="product-detail inactive">
-      <div class="title-container">
-        <img src="./iconos/flechita.svg" alt="arrow">
-        <p class="title">Mi pedido</p>
-      </div>
-  
-      <div class="my-order-content">
-        <div class="shopping-cart">
-          <figure>
-            <img src="./imagenes/hombres/calzado/tenis_azules.jpeg" alt="Tenis">
-          </figure>
-          <p>Tenis</p>
-          <p>$180,000</p>
-          <img src="./iconos/icon_close.png" alt="close">
-        </div>
-  
-        <div class="shopping-cart">
-          <figure>
-            <img src="./imagenes/hombres/jeans/jeans_negro.webp" alt="jeans">
-          </figure>
-          <p>Jeans</p>
-          <p>$75,000</p>
-          <img src="./iconos/icon_close.png" alt="close">
-        </div>
-  
-        <div class="shopping-cart">
-          <figure>
-            <img src="./imagenes/hombres/camisetas/camiseta.webp" alt="Camiseta">
-          </figure>
-          <p>Camiseta</p>
-          <p>$28,000</p>
-          <img src="./iconos/icon_close.png" alt="close">
-        </div>
-  
-        <div class="order">
-          <p>
-            <span>Total</span>
-          </p>
-          <p>$283,000</p>
-        </div>
-  
-        <button class="primary-button">
-          verificar
-        </button>
-      </div>
-    </div>
-    </aside>
-<main>
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./imagenes/retrato-guapo-sonriente-elegante-joven-modelo-vestido-ropa-jeans-hombre-moda_158538-5030.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./imagenes/retrato-bella-modelo-sonriente-vestida-pantalones-cortos-verano-hipster-jeans-ropa_158538-3201.webp" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./imagenes/hermosa-chica-sexy-sonriente-hermosa-sueter-verde-moda-mujer-posando-gafas-sol-redondas-modelo-divirtiendose_158538-5263.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</main>
-    <!--Pie de Pagina-->
-    <footer class="footer">
-      <section class="footer__copy container">
-          <div class="footer__social">
-              <a href="#" class="footer__icons"><img src="./iconos/facebook.svg" class="footer__img"></a>
-              <a href="#" class="footer__icons"><img src="./iconos/twitter.svg" class="footer__img"></a>
-              <a href="#" class="footer__icons"><img src="./iconos/youtube.svg" class="footer__img"></a>
-          </div>
+        <li>
+          <a href="/">Mi cuenta</a>
+        </li>
 
-          <h3 class="footer__copyright">Derechos reservados &copy; Carlos Cudriz</h3>
-      </section>
+        <li>
+          <a href="/">cerrar sesion</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-menu inactive">
+      <ul>
+        <li>
+          <a href="index.html">INICIO</a>
+        </li>
+        <li>
+          <a href="./pages/mujeres.html">MUJERES</a>
+        </li>
+        <li>
+          <a href="./pages/hombres.html">HOMBRES</a>
+        </li>
+        <li>
+          <a href="./pages/nosotros.html">NOSOTROS</a>
+        </li>
+        <li>
+          <a href="./pages/contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="/">Mis ordenes</a>
+        </li>
+        <li>
+          <a href="/">Mi cuenta</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="/" class="email">cudriz@example.com</a>
+        </li>
+        <li>
+          <a href="/" class="sign-out">cerrar sesion</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--aside-->
+  <aside class="product-detail inactive">
+    <div class="title-container">
+      <img src="./iconos/flechita.svg" alt="arrow">
+      <h1 class="title">Mi pedido</h1>
+    </div>
+    <div class="my-order-content">
+      <div class="shopping-cart">
+        <figure>
+          <img src="./imagenes/hombres/calzado/tenis_azules.jpeg" alt="Tenis">
+        </figure>
+        <p>Tenis</p>
+        <p>$180,000</p>
+        <img src="./iconos/icon_close.png" alt="close">
+      </div>
+      <div class="shopping-cart">
+        <figure>
+          <img src="./imagenes/hombres/jeans/jeans_negro.webp" alt="jeans">
+        </figure>
+        <p>Jeans</p>
+        <p>$75,000</p>
+        <img src="./iconos/icon_close.png" alt="close">
+      </div>
+      <div class="shopping-cart">
+        <figure>
+          <img src="./imagenes/hombres/camisetas/camiseta.webp" alt="Camiseta">
+        </figure>
+        <p>Camiseta</p>
+        <p>$28,000</p>
+        <img src="./iconos/icon_close.png" alt="close">
+      </div>
+      <div class="order">
+        <p>
+          <span>Total</span>
+        </p>
+        <p>$283,000</p>
+      </div>
+      <button class="primary-button">
+        verificar
+      </button>
+    </div>
+    </div>
+  </aside>
+  <!--contenido-->
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./imagenes/retrato-guapo-sonriente-elegante-joven-modelo-vestido-ropa-jeans-hombre-moda_158538-5030.jpg"
+            class="d-block w-100" alt="retrato-guapo-sonriente-elegante-joven-modelo-vestido-ropa-jeans-hombre-moda">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./imagenes/retrato-bella-modelo-sonriente-vestida-pantalones-cortos-verano-hipster-jeans-ropa_158538-3201.webp"
+            class="d-block w-100" alt="retrato-bella-modelo-sonriente-vestida-pantalones-cortos-verano-hipster-jeans-ropa">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./imagenes/hermosa-chica-sexy-sonriente-hermosa-sueter-verde-moda-mujer-posando-gafas-sol-redondas-modelo-divirtiendose_158538-5263.jpg"
+            class="d-block w-100" alt="hermosa-chica-sexy-sonriente-hermosa-sueter-verde-moda-mujer-posando-gafas-sol-redondas-modelo-divirtiendose">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+  <!--footer-->
+  <footer class="footer">
+    <section class="footer__copy container">
+      <div class="footer__social">
+        <a href="#" class="footer__icons"><img src="./iconos/facebook.svg" class="footer__img"></a>
+        <a href="#" class="footer__icons"><img src="./iconos/twitter.svg" class="footer__img"></a>
+        <a href="#" class="footer__icons"><img src="./iconos/youtube.svg" class="footer__img"></a>
+      </div>
+      <h3 class="footer__copyright">Derechos reservados &copy; Carlos Cudriz</h3>
+    </section>
   </footer>
-   <!--scrpts de BTS-->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--scrpts de BTS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <!--scrpts de JS-->
+  <script src="main.js"></script>
+</body>
 
-     <script src="main.js"></script>
-
-  </body>
 </html>

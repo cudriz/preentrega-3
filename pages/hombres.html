@@ -1,452 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/eb496ab1a0.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="shortcut icon" href="../iconos/favicon.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <nav>
-      <img src="../iconos/icon_menu.svg" alt="menu" class="menu" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="../iconos/favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <title>Document</title>
+</head>
 
-      <div class="navbar-left">
-        <img src="../logos/logo_yard_sale.svg" alt="logo" class="logo" />
-        <ul>
-          <li>
-            <a href="../index.html">INICIO</a>
-          </li>
-          <li>
-            <a href="mujeres.html">MUJERES</a>
-          </li>
-          <li>
-            <a href="hombres.html">HOMBRES</a>
-          </li>
-          <li>
-            <a href="nosotros.html">NOSOTROS</a>
-          </li>
-          <li>
-            <a href="contacto.html">CONTACTO</a>
-          </li>
-        </ul>
+<body>
+  <!--navbar-->
+  <nav>
+    <img src="../iconos/icon_menu.svg" alt="menu" class="menu" />
+    <div class="navbar-left">
+      <img src="../logos/logo_yard_sale.svg" alt="logo" class="logo" />
+      <ul>
+        <li>
+          <a href="../index.html">INICIO</a>
+        </li>
+        <li>
+          <a href="mujeres.html">MUJERES</a>
+        </li>
+        <li>
+          <a href="hombres.html">HOMBRES</a>
+        </li>
+        <li>
+          <a href="nosotros.html">NOSOTROS</a>
+        </li>
+        <li>
+          <a href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <ul>
+        <li class="navbar-email">cudriz@example.com</li>
+        <li class="navbar-shopping-cart">
+          <img src="../iconos/icon_shopping_cart_notification.svg" alt="shopping-cart" />
+          <div>3</div>
+        </li>
+      </ul>
+    </div>
+    <div class="desktop-menu inactive">
+      <ul>
+        <li>
+          <a href="/" class="title">Mis ordenes</a>
+        </li>
+
+        <li>
+          <a href="/">Mi cuenta</a>
+        </li>
+        <li>
+          <a href="/">cerrar sesion</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-menu inactive">
+      <ul>
+        <li>
+          <a href="../index.html">INICIO</a>
+        </li>
+        <li>
+          <a href="mujeres.html">MUJERES</a>
+        </li>
+        <li>
+          <a href="hombres.html">HOMBRES</a>
+        </li>
+        <li>
+          <a href="nosotros.html">NOSOTROS</a>
+        </li>
+        <li>
+          <a href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="/">Mis ordenes</a>
+        </li>
+        <li>
+          <a href="/">Mi cuenta</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="/" class="email">cudriz@example.com</a>
+        </li>
+        <li>
+          <a href="/" class="sign-out">cerrar sesion</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--aside-->
+  <aside class="product-detail inactive">
+    <div class="title-container">
+      <img src="../iconos/flechita.svg" alt="arrow">
+      <h1 class="title">Mi pedido</h1>
+    </div>
+    <div class="my-order-content">
+      <div class="shopping-cart">
+        <figure>
+          <img src="../imagenes/hombres/calzado/tenis_azules.jpeg" alt="Tenis">
+        </figure>
+        <p>Tenis</p>
+        <p>$180,000</p>
+        <img src="../iconos/icon_close.png" alt="close">
       </div>
 
-      <div class="navbar-right">
-        <ul>
-          <li class="navbar-email">cudriz@example.com</li>
-          <li class="navbar-shopping-cart">
-            <img
-              src="../iconos/icon_shopping_cart_notification.svg"
-              alt="shopping-cart"
-            />
-            <div>3</div>
-          </li>
-        </ul>
+      <div class="shopping-cart">
+        <figure>
+          <img src="../imagenes/hombres/jeans/jeans_negro.webp" alt="jeans">
+        </figure>
+        <p>Jeans</p>
+        <p>$75,000</p>
+        <img src="../iconos/icon_close.png" alt="close">
       </div>
-      <div class="desktop-menu inactive">
-        <ul>
-          <li>
-            <a href="/" class="title">Mis ordenes</a>
-          </li>
-    
-          <li>
-            <a href="/">Mi cuenta</a>
-          </li>
-    
-          <li>
-            <a href="/">cerrar sesion</a>
-          </li>
-        </ul>
+
+      <div class="shopping-cart">
+        <figure>
+          <img src="../imagenes/hombres/camisetas/camiseta.webp" alt="Camiseta">
+        </figure>
+        <p>Camiseta</p>
+        <p>$28,000</p>
+        <img src="../iconos/icon_close.png" alt="close">
       </div>
-  
-      <div class="mobile-menu inactive">
-        <ul>
-          <li>
-            <a href="../index.html">INICIO</a>
-          </li>
-          <li>
-            <a href="mujeres.html">MUJERES</a>
-          </li>
-          <li>
-            <a href="hombres.html">HOMBRES</a>
-          </li>
-          <li>
-            <a href="nosotros.html">NOSOTROS</a>
-          </li>
-          <li>
-            <a href="contacto.html">CONTACTO</a>
-          </li>
-        </ul>
-    
-        <ul>
-          <li>
-            <a href="/">Mis ordenes</a>
-          </li>
-          <li>
-            <a href="/">Mi cuenta</a>
-          </li>
-        </ul>
-    
-        <ul>
-          <li>
-            <a href="/" class="email">cudriz@example.com</a>
-          </li>
-          <li>
-            <a href="/" class="sign-out">cerrar sesion</a>
-          </li>
-        </ul>
+
+      <div class="order">
+        <p>
+          <span>Total</span>
+        </p>
+        <p>$283,000</p>
       </div>
-    </nav>
-    <aside class="product-detail inactive">
-      <div class="title-container">
-        <img src="../iconos/flechita.svg" alt="arrow">
-        <p class="title">Mi pedido</p>
-      </div>
-  
-      <div class="my-order-content">
-        <div class="shopping-cart">
+
+      <button class="primary-button">
+        verificar
+      </button>
+    </div>
+    </div>
+  </aside>
+  <!--contenido-->
+  <section class="main-container">
+    <div class="cards-container">
+      <div class="product-card">
+        <img src="../imagenes/hombres/camisetas/camiseta_negra.jpg" alt="camiseta" />
+        <div class="product-info">
+          <div>
+            <p>$28,000</p>
+            <p>Camiseta</p>
+          </div>
           <figure>
-            <img src="../imagenes/hombres/calzado/tenis_azules.jpeg" alt="Tenis">
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
           </figure>
-          <p>Tenis</p>
-          <p>$180,000</p>
-          <img src="../iconos/icon_close.png" alt="close">
         </div>
-  
-        <div class="shopping-cart">
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/camisetas/camiseta_verde.webp" alt="" />
+        <div class="product-info">
+          <div>
+            <p>$28,000</p>
+            <p>Camiseta</p>
+          </div>
           <figure>
-            <img src="../imagenes/hombres/jeans/jeans_negro.webp" alt="jeans">
+            <img src="../iconos/bt_add_to_cart.svg" alt="" />
           </figure>
-          <p>Jeans</p>
-          <p>$75,000</p>
-          <img src="../iconos/icon_close.png" alt="close">
         </div>
-  
-        <div class="shopping-cart">
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/camisetas/camiseta_roja.webp" alt="camiseta" />
+        <div class="product-info">
+          <div>
+            <p>$28,000</p>
+            <p>Camiseta</p>
+          </div>
           <figure>
-            <img src="../imagenes/hombres/camisetas/camiseta.webp" alt="Camiseta">
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
           </figure>
-          <p>Camiseta</p>
-          <p>$28,000</p>
-          <img src="../iconos/icon_close.png" alt="close">
         </div>
-  
-        <div class="order">
-          <p>
-            <span>Total</span>
-          </p>
-          <p>$283,000</p>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/camisetas/camiseta_marron.webp" alt="camiseta" />
+        <div class="product-info">
+          <div>
+            <p>$28,000</p>
+            <p>Camiseta</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
         </div>
-  
-        <button class="primary-button">
-          verificar
-        </button>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/camisetas/camiseta_azul_oscuro.webp" alt="camiseta" />
+        <div class="product-info">
+          <div>
+            <p>$28,000</p>
+            <p>Camiseta</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/camisetas/camiseta_azul.webp" alt="camiseta" />
+        <div class="product-info">
+          <div>
+            <p>$28,000</p>
+            <p>Camiseta</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/camisetas/camiseta.webp" alt="camiseta" />
+        <div class="product-info">
+          <div>
+            <p>$28,000</p>
+            <p>Camiseta</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/jeans/jeans_azul.webp" alt="jeans" />
+        <div class="product-info">
+          <div>
+            <p>$70,000</p>
+            <p>Jeans</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="iconos" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/jeans/jeans_negro.webp" alt="jeans" />
+        <div class="product-info">
+          <div>
+            <p>$75,000</p>
+            <p>Jeans</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/jeans/jeans_gris_diseño.webp" alt="jeans" />
+        <div class="product-info">
+          <div>
+            <p>$80,000</p>
+            <p>Jeans</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/jeans/jeans_azul_diseño.webp" alt="jeans" />
+        <div class="product-info">
+          <div>
+            <p>$80.000</p>
+            <p>Jeans</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/jeans/jeans_negro_diseño.webp" alt="jeans" />
+        <div class="product-info">
+          <div>
+            <p>$80,000</p>
+            <p>Jeans</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/joggers/joggers_beige.webp" alt="joggers" />
+        <div class="product-info">
+          <div>
+            <p>$55,000</p>
+            <p>Joggers</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/joggers/joggers_negro.webp" alt="joggers" />
+        <div class="product-info">
+          <div>
+            <p>$55,000</p>
+            <p>Joggers</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/calzado/tenis_blancos_air1.jpeg" alt="tenis" />
+        <div class="product-info">
+          <div>
+            <p>$170,000</p>
+            <p>Tenis</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/calzado/tenis_azules.jpeg" alt="tenis" />
+        <div class="product-info">
+          <div>
+            <p>$180,000</p>
+            <p>Tenis</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/calzado/tenis_beige.jpeg" alt="tenis" />
+        <div class="product-info">
+          <div>
+            <p>$160,000</p>
+            <p>Tenis</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/calzado/tenis_negros.jpeg" alt="tenis" />
+        <div class="product-info">
+          <div>
+            <p>$170,000</p>
+            <p>Tenis</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/calzado/tenis_azules_botas.jpeg" alt="tenis" />
+        <div class="product-info">
+          <div>
+            <p>$180,000</p>
+            <p>Tenis</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/calzado/tenis_blancos.webp" alt="tenis" />
+        <div class="product-info">
+          <div>
+            <p>$130,000</p>
+            <p>Tenis</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../imagenes/hombres/calzado/tenis_blancos_botas.webp" alt="tenis" />
+        <div class="product-info">
+          <div>
+            <p>$140,000</p>
+            <p>Tenis</p>
+          </div>
+          <figure>
+            <img src="../iconos/bt_add_to_cart.svg" alt="icono" />
+          </figure>
+        </div>
       </div>
     </div>
-    </aside>
-    <section class="main-container">
-      <div class="cards-container">
-        <div class="product-card">
-          <img src="../imagenes/hombres/camisetas/camiseta_negra.jpg" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$28,000</p>
-              <p>Camiseta</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/camisetas/camiseta_verde.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$28,000</p>
-              <p>Camiseta</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/camisetas/camiseta_roja.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$28,000</p>
-              <p>Camiseta</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/camisetas/camiseta_marron.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$28,000</p>
-              <p>Camiseta</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img
-            src="../imagenes/hombres/camisetas/camiseta_azul_oscuro.webp"
-            alt=""
-          />
-          <div class="product-info">
-            <div>
-              <p>$28,000</p>
-              <p>Camiseta</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/camisetas/camiseta_azul.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$28,000</p>
-              <p>Camiseta</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/camisetas/camiseta.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$28,000</p>
-              <p>Camiseta</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/jeans/jeans_azul.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$70,000</p>
-              <p>Jeans</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/jeans/jeans_negro.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$75,000</p>
-              <p>Jeans</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/jeans/jeans_gris_diseño.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$80,000</p>
-              <p>Jeans</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/jeans/jeans_azul_diseño.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$80.000</p>
-              <p>Jeans</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/jeans/jeans_negro_diseño.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$80,000</p>
-              <p>Jeans</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/joggers/joggers_beige.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$55,000</p>
-              <p>Joggers</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/joggers/joggers_negro.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$55,000</p>
-              <p>Joggers</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/calzado/tenis_blancos_air1.jpeg" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$170,000</p>
-              <p>Tenis</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/calzado/tenis_azules.jpeg" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$180,000</p>
-              <p>Tenis</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/calzado/tenis_beige.jpeg" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$160,000</p>
-              <p>Tenis</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/calzado/tenis_negros.jpeg" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$170,000</p>
-              <p>Tenis</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/calzado/tenis_azules_botas.jpeg" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$180,000</p>
-              <p>Tenis</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="../imagenes/hombres/calzado/tenis_blancos.webp" alt="" />
-          <div class="product-info">
-            <div>
-              <p>$130,000</p>
-              <p>Tenis</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img
-            src="../imagenes/hombres/calzado/tenis_blancos_botas.webp"
-            alt=""
-          />
-          <div class="product-info">
-            <div>
-              <p>$140,000</p>
-              <p>Tenis</p>
-            </div>
-            <figure>
-              <img src="../iconos/bt_add_to_cart.svg" alt="" />
-            </figure>
-          </div>
-        </div>
+  </section>
+  <!--footer-->
+  <footer class="footer">
+    <section class="footer__copy container">
+      <div class="footer__social">
+        <a href="#" class="footer__icons"><img src="../iconos/facebook.svg" class="footer__img"></a>
+        <a href="#" class="footer__icons"><img src="../iconos/twitter.svg" class="footer__img"></a>
+        <a href="#" class="footer__icons"><img src="../iconos/youtube.svg" class="footer__img"></a>
       </div>
+      <h3 class="footer__copyright">Derechos reservados &copy; Carlos Cudriz</h3>
     </section>
-    <footer class="footer">
-      <section class="footer__copy container">
-          <div class="footer__social">
-              <a href="#" class="footer__icons"><img src="../iconos/facebook.svg" class="footer__img"></a>
-              <a href="#" class="footer__icons"><img src="../iconos/twitter.svg" class="footer__img"></a>
-              <a href="#" class="footer__icons"><img src="../iconos/youtube.svg" class="footer__img"></a>
-          </div>
-
-          <h3 class="footer__copyright">Derechos reservados &copy; Carlos Cudriz</h3>
-      </section>
   </footer>
-    <script src="../main.js"></script>
-  </body>
+  <!--scrpts de JS-->
+  <script src="../main.js"></script>
+</body>
+
 </html>

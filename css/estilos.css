@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap);
 * {
   margin: 0;
   padding: 0;
@@ -391,6 +392,9 @@ aside {
 /* Formulario*/
 .contact {
   text-align: center;
+  color: #001A49;
+  font-size: 2rem;
+  margin-bottom: 25px;
 }
 
 /* seccion nosotros */
@@ -425,7 +429,7 @@ aside {
 
 .cta {
   display: inline-block;
-  background-color: #2091F9;
+  background-color: #2091f9;
   justify-self: center;
   color: #fff;
   text-decoration: none;
@@ -522,9 +526,9 @@ aside {
   width: 350px;
   padding: 50px 30px;
   --color-plan: #696871;
-  --color-price: #1D293F;
+  --color-price: #1d293f;
   --bg-cta: #fff;
-  --color-cta: #5454D4;
+  --color-cta: #5454d4;
   --color-items: #696871;
 }
 
@@ -533,9 +537,9 @@ aside {
   padding: 60px 30px;
   background-color: #e5e5f7;
   --color-plan: rgb(255 255 255 / 75%);
-  --color-price: #1D293F;
+  --color-price: #1d293f;
   --bg-cta: #fff;
-  --color-cta: #5454D4;
+  --color-cta: #5454d4;
   --color-items: #696871;
 }
 
@@ -586,7 +590,7 @@ aside {
 .questions__padding {
   padding: 0;
   transition: padding 0.3s;
-  border: 1px solid #5454D4;
+  border: 1px solid #5454d4;
   border-radius: 6px;
 }
 
@@ -653,7 +657,7 @@ aside {
 
 /* Footer */
 .footer {
-  background-color: #1D293F;
+  background-color: #1d293f;
 }
 
 .footer__inputs {
@@ -722,13 +726,5 @@ aside {
 @media (min-width: 641px) {
   .mobile-menu {
     display: none;
-  }
-}
-@media screen and (min-width: 641px) and (max-width: 800px) {
-  .pie-pagina .grupo-1 {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
   }
 }/*# sourceMappingURL=estilos.css.map */
